@@ -1,0 +1,18 @@
+[package]
+name = "eas-sdk-rs"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust client library for Ethereum Attestation Service."
+license = "BSD-3-Clause"
+repository = "https://github.com/pradovic/eas-sdk-rs"
+authors = ["Petar Radovic <petar.radovic@gmail.com>"]
+keywords = ["api", "client", "easy", "ethereum", "sdk", "attestation", "service"]
+
+
+[dependencies]
+ethers = "2.0"
+tokio = { version = "1", features = ["full"] }
+thiserror = "1.0.58"
+futures = "0.3"
+tracing = "0.1.40"
+serde = { version = "1.0", features = ["derive"] }
