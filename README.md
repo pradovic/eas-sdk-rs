@@ -1,4 +1,4 @@
-This repository contains the Ethereum Attestation Service SDK for the Rust programming language, used to interact with the Ethereum Attestation Service Protocol.
+This repository contains the unofficial & opinionated Ethereum Attestation Service SDK for the Rust programming language, used to interact with the Ethereum Attestation Service Protocol.
 
 [Ethereum Attestation Service](https://attest.sh/) (EAS) is an open-source infrastructure public good for making attestations onchain or offchain.
 
@@ -60,12 +60,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
 }
 ```
 
-Both `schema_registry` and `eas` types export underlying contracts as well. These can be used to interact with abigen bindings directly, if needed. 
+Both `schema_registry` and `eas` types export underlying contracts as well. These can be used to interact with abigen bindings directly, if needed. Feel free to check more detailed usage examples in the `/examples` folder.
 
 ## Status
-This project is created from a need to use Ethereum Attestation Service from Rust. As the EAS is still evolving project, I expect for this library to evolve as well. 
+This project is created from a need to use Ethereum Attestation Service from Rust in my personal projects. As the EAS is still evolving project, I expect for this library to evolve as well. 
 
-The project is still in early phase. The on-chain flow is covered, but there are still missing features, such as offchain attestations, for example. If you happen to be using the SDK and find missing feature, feel free to reach out or open an issue.
+The project is still in early phase. The on-chain flow is covered, but there are still missing features, such as offchain attestations, for example. It is pretty opinionated as I was making it to suit my own needs, but I tried to keep it pretty general as well. If you happen to be using the SDK and find missing feature, feel free to reach out or open an issue, or even contribute :)
 
 
 ## Versioning
@@ -73,10 +73,6 @@ The project is still in early phase. The on-chain flow is covered, but there are
 Each version of the client is tagged and the version is updated accordingly.
 To see the list of past versions, run `git tag`.
 
-## Contributing
-
-We love pull requests! Please see the [contribution guidelines](CONTRIBUTING.md).
-As SDK is opionated and still evolving, if you spot some broken or missing feature please reach out or open an issue!
 
 ## License
 

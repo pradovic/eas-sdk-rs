@@ -6,7 +6,7 @@ description = "A Rust client library for Ethereum Attestation Service."
 license = "BSD-3-Clause"
 repository = "https://github.com/pradovic/eas-sdk-rs"
 authors = ["Petar Radovic <petar.radovic@gmail.com>"]
-keywords = ["api", "client", "easy", "ethereum", "sdk", "attestation", "service"]
+keywords = ["client", "ethereum", "sdk", "attestation", "eas"]
 
 
 [dependencies]
