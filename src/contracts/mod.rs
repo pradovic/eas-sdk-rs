@@ -1,3 +1,5 @@
+#![allow(clippy::all)]
+
 pub mod eas;
 
 pub mod schema_registry;
